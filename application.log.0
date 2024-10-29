@@ -1,0 +1,38 @@
+окт. 21, 2024 4:41:48 PM ru.test.diagrams.MainFrame openFile
+WARNING: Попытка открыть файл, в котором строки имеют неверный формат
+окт. 21, 2024 4:42:03 PM ru.test.diagrams.MainFrame openFile
+WARNING: Попытка открыть файл, в котором строки имеют неверный формат
+окт. 21, 2024 4:50:39 PM ru.test.diagrams.MainFrame openFile
+WARNING: Попытка открыть файл, в котором строки имеют неверный формат
+окт. 21, 2024 4:50:55 PM ru.test.diagrams.MainFrame openFile
+WARNING: Попытка открыть файл, в котором строки имеют неверный формат
+окт. 22, 2024 4:43:56 PM ru.test.diagrams.MainFrame$MyTableCellEditor getCellEditorValue
+WARNING: Попытка записать некорректные данные в таблицу
+окт. 22, 2024 4:44:00 PM ru.test.diagrams.MainFrame$MyTableCellEditor getCellEditorValue
+WARNING: Попытка записать некорректные данные в таблицу
+окт. 22, 2024 4:44:00 PM ru.test.diagrams.MainFrame$MyTableCellEditor getCellEditorValue
+WARNING: Попытка записать некорректные данные в таблицу
+окт. 22, 2024 4:44:01 PM ru.test.diagrams.MainFrame$MyTableCellEditor getCellEditorValue
+WARNING: Попытка записать некорректные данные в таблицу
+окт. 22, 2024 4:44:04 PM ru.test.diagrams.MainFrame$MyTableCellEditor stopCellEditing
+WARNING: Значение ячейки записалось в экспоненциальной форме, т.к. оно слишком велико
+окт. 22, 2024 4:44:09 PM ru.test.diagrams.MainFrame$MyTableCellEditor getCellEditorValue
+WARNING: Попытка записать некорректные данные в таблицу
+окт. 22, 2024 4:44:15 PM ru.test.diagrams.MainFrame$MyTableCellEditor getCellEditorValue
+WARNING: Попытка записать некорректные данные в таблицу
+окт. 22, 2024 4:44:17 PM ru.test.diagrams.MainFrame$MyTableCellEditor stopCellEditing
+WARNING: Значение ячейки записалось в экспоненциальной форме, т.к. оно слишком велико
+окт. 22, 2024 4:46:03 PM ru.test.diagrams.MainFrame$MyTableCellEditor$2 tableChanged
+WARNING: Значение ячейки записалось в экспоненциальной форме, т.к. оно слишком велико
+окт. 22, 2024 4:48:02 PM ru.test.diagrams.MainFrame$MyTableCellEditor$2 tableChanged
+WARNING: Значение ячейки в строке 9, в колонке 1 записалось в экспоненциальной форме, т.к. оно слишком велико
+окт. 22, 2024 4:49:13 PM ru.test.diagrams.MainFrame$MyTableCellEditor$2 tableChanged
+WARNING: Значение ячейки в строке 1, в колонке 2 записалось в экспоненциальной форме, т.к. оно слишком велико
+окт. 22, 2024 6:32:27 PM ru.test.diagrams.MainFrame openAll
+SEVERE: Не удалось открыть файл, т.к. он уже открыт!
+окт. 22, 2024 6:36:39 PM ru.test.diagrams.MainFrame openFile
+WARNING: Попытка открыть файл, в котором строки записаны в неверном формате!
+окт. 22, 2024 6:50:42 PM ru.test.diagrams.MainFrame createComponents
+WARNING: При открытии файл не был выбран!
+окт. 28, 2024 9:33:36 AM ru.test.diagrams.MainFrame createComponents
+SEVERE: Не удалось открыть файл!
