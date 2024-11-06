@@ -1,6 +1,7 @@
 package ru.nic.trajectory;
 
-import javax.swing.*;
+import javax.swing.SwingUtilities;
+
 
 public class App 
 {

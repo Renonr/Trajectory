@@ -1,7 +1,13 @@
 package ru.nic.trajectory;
 
 import java.io.IOException;
-import java.util.logging.*;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Filter;
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
 
 public class LoggerConfig {
     public static void setup() {
