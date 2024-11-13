@@ -1,16 +1,22 @@
 package ru.nic.trajectory;
 
+import java.io.File;
+
 import org.junit.Assert;
 import org.junit.Test;
 
 
 public class AppTest 
 {
-	private String testSet1 = "C:\\Users\\ikovalev\\SwingTest\\diagrams\\src\\test\\java\\ru\\test\\diagrams\\testSet1.txt";
+	private String testSetRelativePath = "src" + File.separator + "test" + File.separator + "java" + File.separator + 
+			"ru" + File.separator + "nic" + File.separator + "trajectory" + File.separator + "testSet1.txt";
+	
+	private File testSet = new File(testSetRelativePath);
+	private String testSetabsolutePath = testSet.getAbsolutePath();
 	
     @Test
     public void testStatistics() {
-    	MockTable mockTable = new MockTable(testSet1);
+    	MockTable mockTable = new MockTable(testSetabsolutePath);
     	
     	Double delta = 0.05;
     	
@@ -34,7 +40,7 @@ public class AppTest
     
     @Test
     public void testRowCountAfterInsert() {
-    	MockTable mockTable = new MockTable(testSet1);
+    	MockTable mockTable = new MockTable(testSetabsolutePath);
     	
     	int expectedRowCount = 9;
     	
@@ -50,7 +56,7 @@ public class AppTest
     
     @Test
     public void testSort() {
-    	MockTable mockTable = new MockTable(testSet1);
+    	MockTable mockTable = new MockTable(testSetabsolutePath);
     	
     	int startRowCount = mockTable.getRowCount();
     	
@@ -64,7 +70,7 @@ public class AppTest
     
     @Test
     public void testInsertFirstRow() {
-    	MockTable mockTable = new MockTable(testSet1);
+    	MockTable mockTable = new MockTable(testSetabsolutePath);
     	
     	int rowCount = mockTable.getRowCount();
     	
@@ -78,7 +84,7 @@ public class AppTest
     
     @Test
     public void testInsertLastRow() {
-    	MockTable mockTable = new MockTable(testSet1);
+    	MockTable mockTable = new MockTable(testSetabsolutePath);
     	
     	int rowCount = mockTable.getRowCount();
     	
@@ -92,7 +98,7 @@ public class AppTest
     
     @Test
     public void testNewTime() {
-    	MockTable mockTable = new MockTable(testSet1);
+    	MockTable mockTable = new MockTable(testSetabsolutePath);
     	
     	Double expectedAbove = 3.5;
     	Double expectedBelow = 1.5;

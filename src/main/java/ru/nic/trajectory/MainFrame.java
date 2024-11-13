@@ -521,7 +521,7 @@ public class MainFrame extends JFrame {
     		
     		//Отключение ручной сортировки у всех столбцов
     		trajectoryTableSorter.setModel(model);
-    		trajectoryTableSorter.setSortKeys(java.util.List.of(new RowSorter.SortKey(0, SortOrder.ASCENDING)));
+    		trajectoryTableSorter.setSortKeys(java.util.Arrays.asList(new RowSorter.SortKey(0, SortOrder.ASCENDING)));
     		
     		trajectoryTableSorter.setSortable(0, false);
     		trajectoryTableSorter.setSortable(1, false);

@@ -57,7 +57,7 @@ public class MockTable {
 		}
 		
 		mockTableSorter.setModel(mockModel);
-		mockTableSorter.setSortKeys(java.util.List.of(new RowSorter.SortKey(0, SortOrder.ASCENDING)));
+		mockTableSorter.setSortKeys(java.util.Arrays.asList(new RowSorter.SortKey(0, SortOrder.ASCENDING)));
 		
 		mockTableSorter.setSortable(0, false);
 		mockTableSorter.setSortable(1, false);
